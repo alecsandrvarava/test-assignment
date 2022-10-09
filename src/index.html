@@ -2,24 +2,166 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Webpack Boilerplate Starter Template</title>
-    <meta name="description" content="Simple starter webpack 5 project template boilerplate supporting SASS/PostCSS, Babel ES7, browser syncing, code linting. Easy project setup having multiple features and developer friendly tools.">
+    <title>test assignment</title>
     <meta name="keywords" content="webpack, webpack-configuration, template, boilerplate, setup, html, css, sass, javascript">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Plamen Nikolov, WeAreAthlon">
   </head>
   <body>
 		<div class="wrapper">
-			<header>
+			<header class="header">
 				<div class="container">
-					
+					<div class="header__contacts">
+						<div class="header__contacts-logo">
+							<a href="#">
+								<svg>
+									<use xlink:href="images/content/icons.svg#logo-black"></use>
+								</svg>
+							</a>
+						</div>
+						<div class="header__box">
+							<div class="header__socials socials-header">
+								<div class="socials-header__text">Ми в соціальних мережах:</div>
+								<nav class="socials-header__links">
+									<a href="#">
+										<svg>
+											<use xlink:href="images/content/icons.svg#telegram"></use>
+										</svg>
+									</a>
+									<a href="#">
+										<svg>
+											<use xlink:href="images/content/icons.svg#faceboock"></use>
+										</svg>
+									</a>
+									<a href="#">
+										<svg>
+											<use xlink:href="images/content/icons.svg#instagram"></use>
+										</svg>
+									</a>
+								</nav>
+							</div>
+							<div class="header__tel tel-header">
+								<div class="tel-header__icon">
+									<a href="tel:+380991112233">
+										<svg >
+											<use xlink:href="images/content/icons.svg#phone-mini"></use>
+										</svg>
+									</a>
+								</div>
+								<div class="tel-header__link">
+									<a href="tel:+380991112233">(099) 111 22 33</a>
+									<svg>
+										<use xlink:href="images/content/icons.svg#arrow-bottom"></use>
+									</svg>
+								</div>
+								
+							</div>
+						</div>
+						<nav class="header__nav">
+							<a href="#">Головна</a>
+							<a href="#">АкцІї</a>
+							<a href="#">Доставка та оплата</a>
+							<a href="#">про нас</a>
+							<a href="#">контакти</a>
+						</nav>
+						<div class="header__nav-burger"></div>
+					</div>
+					<div class="header__menu menu-header">
+						<nav class="menu-header__items">
+							<div class="menu-header__item">
+								<a href="#">Дивани</a>
+								<svg>
+									<use xlink:href="images/content/icons.svg#arrow-bottom"></use>
+								</svg>
+							</div>
+							<div class="menu-header__item">
+								<a href="#">ліжка</a>
+								<svg>
+									<use xlink:href="images/content/icons.svg#arrow-bottom"></use>
+								</svg>
+							</div>
+							<div class="menu-header__item">
+								<a href="#">Крісла</a>
+								<svg>
+									<use xlink:href="images/content/icons.svg#arrow-bottom"></use>
+								</svg>
+							</div>
+							<div class="menu-header__item">
+								<a href="#">комоди</a>
+								<svg>
+									<use xlink:href="images/content/icons.svg#arrow-bottom"></use>
+								</svg>
+							</div>
+							<div class="menu-header__item">
+								<a href="#">шафи</a>
+								<svg>
+									<use xlink:href="images/content/icons.svg#arrow-bottom"></use>
+								</svg>
+							</div>
+							<div class="menu-header__item">
+								<a href="#">Кухня</a>
+								<svg>
+									<use xlink:href="images/content/icons.svg#arrow-bottom"></use>
+								</svg>
+							</div>
+						</nav>
+						<div class="menu-header__nav-burger"></div>
+						<div class="header__logo">
+							<a href="#">
+								<svg>
+									<use xlink:href="images/content/icons.svg#logo-black"></use>
+								</svg>
+							</a>
+						</div>
+						<div class="header__carts">
+							<div class="header__cart">
+								<a href="#">
+									<svg>
+										<use xlink:href="images/content/icons.svg#cart"></use>
+									</svg>
+									<span>Кошик</span>
+								</a>
+							</div>
+							<div class="header__call">
+								<button class="btn">Замовити дзвінок</button>
+							</div>
+						</div>
+
+					</div>
 				</div>
 			</header>
+			<section class="home">
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<div class="home__slide" style="background: url(./images/content/home-bg.jpg);">
+								<div class="home__block-img">
+									<h2 class="home__title">Новинка!</h2>
+									<div class="home__subtitle">Ліжко Ornella</div>
+									<p>Це новий рівень комфортного сну</p>
+									<div class="home__btn">
+										<button class="btn">Детальніше</button>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="swiper-slide">Slide 2</div>
+						<div class="swiper-slide">Slide 3</div>
+					</div>
+
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				
+				</div>
+			</section>
 			<main>
 			</main>
 			<footer>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo veritatis deserunt laborum facere laboriosam, totam cumque optio excepturi ipsam iure doloremque incidunt illo perspiciatis modi voluptas aliquid non ab. Sapiente dolorem, optio, odio culpa enim cumque expedita molestias impedit deleniti eum inventore natus? Fugiat aliquid deserunt laborum saepe nemo ad minima iure quos magnam, reiciendis ex corporis porro nostrum vero sequi dolore labore molestias debitis aut quibusdam harum obcaecati. Quae voluptatibus tempore ab quam consequuntur tenetur ex porro magnam incidunt officiis culpa eveniet similique numquam molestias, sed ad, quo sunt? Odit et dicta voluptate autem nobis eaque blanditiis enim molestias ipsam iusto maxime, sequi eum, temporibus obcaecati explicabo ea non perferendis eius reprehenderit inventore eveniet earum! Nisi, at consequuntur laborum error, aperiam voluptates, animi libero mollitia veritatis amet illum cupiditate doloribus eligendi repellat officiis atque! Laborum, blanditiis vitae! Minima, cumque cum, delectus assumenda, sequi voluptatem eos magnam ea at perspiciatis reprehenderit? Eligendi, quo architecto quas adipisci incidunt explicabo inventore saepe tenetur maiores porro necessitatibus ducimus in ut ipsam, facere id fuga, minima sapiente aperiam blanditiis eveniet iusto ex. Saepe enim blanditiis debitis cumque natus. Facilis repellat dolorum fugiat modi corporis odio eligendi cupiditate voluptates officia adipisci provident, deleniti quisquam obcaecati at dolores voluptatem temporibus est illo ullam neque nostrum. Eveniet voluptatum quasi quae nihil velit tenetur iure vero. Tenetur hic itaque atque ipsam, doloremque illum non recusandae sapiente optio corporis tempore totam iste soluta vero quibusdam dignissimos ducimus reprehenderit assumenda suscipit accusantium saepe? Dignissimos distinctio exercitationem reiciendis officia obcaecati officiis pariatur dolorem, voluptatibus sequi expedita deserunt, fugit dolore. Voluptatum neque odit optio quibusdam eaque distinctio tempora enim labore corrupti, nostrum ducimus! Necessitatibus reiciendis atque minima quis, veniam eos quae dolorum numquam dicta quas, beatae consequatur, vel neque repellat veritatis asperiores dolores hic earum laboriosam soluta! Molestias nobis perferendis dolore quibusdam, quo temporibus corporis optio ipsam aliquid cupiditate, obcaecati, pariatur incidunt itaque quae? Et vel aut ducimus expedita nihil qui temporibus, adipisci cum voluptates consequuntur accusamus exercitationem, eligendi, quae ab ex corrupti mollitia. Perspiciatis numquam quisquam quidem inventore pariatur minus officia commodi, quas quis repellat sit nobis ipsam non. Natus reiciendis perferendis, quaerat, sed tempora maxime expedita quasi in ducimus exercitationem accusantium illum inventore? Adipisci alias repudiandae consequatur temporibus error! Fugit ducimus placeat numquam ipsa quidem, harum minus voluptatum suscipit obcaecati aliquid, optio quis sunt quaerat cumque, dicta molestiae voluptatibus sequi atque et corrupti quos. Facilis pariatur optio iure. Ullam deserunt sapiente omnis, excepturi quibusdam modi sit delectus eveniet quia minima, eum optio tempora impedit ad ipsam quasi error ab dignissimos recusandae quo. Accusantium placeat accusamus est perferendis, voluptates, iusto eligendi maiores laborum molestiae suscipit modi obcaecati deserunt, architecto eum vero. Reprehenderit veniam consectetur laboriosam sapiente quia officiis commodi deserunt ullam similique, eum quo harum, vel incidunt. Totam deserunt odit ab laboriosam? Aut non ea quo alias! Dolore molestias ut natus neque magnam sed ea aspernatur. Perferendis enim id dignissimos dolorum eaque exercitationem suscipit voluptatem autem? Fugit, officiis? Repellendus rerum cupiditate nulla consectetur dolorem illum ipsum ullam deserunt blanditiis autem similique at, fugiat provident officia enim minima perferendis ex officiis magni temporibus? Debitis cumque placeat adipisci rerum libero dolorum, fugit impedit accusamus quis possimus hic architecto reprehenderit sint inventore officia consequuntur voluptatem sunt illo! Tempora hic id blanditiis quisquam, pariatur eius! Alias dicta, assumenda aliquid placeat earum magni fugit optio voluptatibus ipsam rem rerum nesciunt veritatis ex recusandae numquam unde maxime natus provident blanditiis consequuntur impedit. Voluptatum facilis, quos est in commodi culpa dolore blanditiis ducimus dolores rem reiciendis neque rerum consequatur sit repudiandae consequuntur assumenda nisi minus! Deserunt explicabo placeat officia nostrum consectetur minus iusto alias omnis sequi. Eos repudiandae minus, odit nostrum maxime velit amet quis! Illum et at excepturi eaque tempore. Rerum error nesciunt ex, culpa iure repellat non earum ea, maxime nulla suscipit? Animi ullam quisquam dicta, libero est error doloribus assumenda delectus fugiat non, debitis eligendi vel illum, deleniti cupiditate obcaecati. Voluptatum saepe vitae unde, culpa praesentium aliquid nisi magni tenetur eius sit similique, non iste voluptatem incidunt quisquam debitis dolores error est explicabo. Commodi sed id voluptates similique voluptatibus doloremque consectetur deleniti? Laboriosam eaque a perferendis ducimus illo dignissimos assumenda enim fugit sapiente, fugiat voluptas, praesentium dolore sit quia possimus? Aperiam veritatis, modi cum quisquam ipsa numquam eveniet alias commodi veniam cupiditate error laudantium quidem harum odio dolorem molestias obcaecati dolore laborum inventore sint repellat est, illo voluptatum provident? Cumque atque reiciendis esse placeat itaque debitis sapiente, eaque nulla? Ipsum, fugiat illum, est autem iusto magnam saepe aliquam maiores cupiditate suscipit dicta accusamus nostrum quisquam hic tempora atque quaerat fugit, sit tenetur. Sequi, asperiores deleniti unde omnis quisquam quasi est nemo error odit qui nostrum beatae cupiditate alias laudantium dolore quia illum esse nisi fugiat, hic consequuntur fugit? Laborum molestias aspernatur accusantium culpa voluptatem! Dolorem iste quia suscipit iusto? Minima repellat quod praesentium eius magnam voluptate error? Officiis, doloremque ad. Obcaecati, quod. Numquam alias, qui provident sapiente earum ipsa iure quia. Dolorum sint consequuntur numquam impedit error nostrum. Quaerat, quidem aspernatur? Necessitatibus consectetur maxime, saepe hic ab delectus vitae minus ullam praesentium autem cumque quam esse recusandae sunt! Deleniti inventore ducimus repudiandae reprehenderit expedita, numquam qui unde reiciendis ratione nobis fuga sed nemo? Odit magni vitae quas laudantium minima exercitationem porro explicabo quae sunt numquam molestias quasi deserunt, aperiam, qui autem corporis eos tenetur optio minus vel fugit. Accusamus doloremque voluptatem aliquam enim aspernatur illo voluptas nemo, obcaecati quas assumenda, beatae ipsam sequi officiis suscipit cumque, at modi? Iure ab quas dolor consequuntur, rem ipsa omnis voluptas porro culpa nihil inventore explicabo nisi hic consequatur quae quaerat ut, fuga cupiditate! Accusantium quae ducimus consequatur sequi officiis error voluptatibus quam laudantium nesciunt sit aliquid, aut tenetur fugit facilis reiciendis est iure totam nulla pariatur dignissimos ab in cupiditate porro! Perspiciatis, dolores officiis repellendus at beatae pariatur modi quo, cupiditate blanditiis vitae totam placeat quibusdam aperiam culpa! Ratione, voluptatem dolorum quis quidem aspernatur, earum nam ut sapiente nesciunt voluptas, magnam laborum aliquam optio inventore nostrum officiis iste vero. Possimus voluptas perferendis unde sunt maxime placeat temporibus accusantium.
 			</footer>
 		</div>
-   
   </body>
 </html>
